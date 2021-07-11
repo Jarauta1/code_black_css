@@ -1,0 +1,72 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: radial-gradient(closest-side, red, orange);
+  margin-bottom: 14px;
+}
+
+span {
+  color: red;
+  text-decoration: line-through;
+  letter-spacing: 2px;
+  display: contents;
+}
+
+.price {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+select {
+  border-color: black;
+  height: 30px;
+  width: 48px;
+  border-radius: 15%;
+  font-size: 15px;
+}
+
+.description {
+  text-align: center;
+}
+
+a {
+  border: 1px solid black;
+  width: 70vw;
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}
+
+a::after {
+  content: " now!";
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
